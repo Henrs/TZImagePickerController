@@ -508,7 +508,8 @@ static CGFloat itemMargin = 5;
         if ([tzImagePickerVc.takePictureImageName isEqualToString:@"takePicture80"]) {
             cell.imageView.contentMode = UIViewContentModeCenter;
             CGFloat rgb = 223 / 255.0;
-            cell.imageView.backgroundColor = [UIColor colorWithRed:rgb green:rgb blue:rgb alpha:1.0];
+//            cell.imageView.backgroundColor = [UIColor colorWithRed:rgb green:rgb blue:rgb alpha:1.0];
+            cell.imageView.backgroundColor = [UIColor whiteColor];
         } else {
             // 背景变为白色,其实这里的cell最好给出自定义方法
             cell.imageView.backgroundColor = [UIColor whiteColor];

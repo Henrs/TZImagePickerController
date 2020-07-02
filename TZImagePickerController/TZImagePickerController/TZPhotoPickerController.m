@@ -510,6 +510,7 @@ static CGFloat itemMargin = 5;
             CGFloat rgb = 223 / 255.0;
             cell.imageView.backgroundColor = [UIColor colorWithRed:rgb green:rgb blue:rgb alpha:1.0];
         } else {
+            // 背景变为白色,其实这里的cell最好给出自定义方法
             cell.imageView.backgroundColor = [UIColor whiteColor];
         }
         return cell;
